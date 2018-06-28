@@ -42,5 +42,3 @@ def watering_time_calculate():
         return int(((hi - daylight*(hi - lo)) - 26)*5)
     else:
         return int((((daylight*(hi - lo)) + lo) - 26)*3)
-
-print watering_time_calculate()
